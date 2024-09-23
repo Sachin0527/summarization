@@ -1,8 +1,8 @@
-The history of computers is unclear, but experts believe they emerged during World War II for government use, primarily for data storage. Early computers were large and bulky. 
-
-Computers operate on a three-step cycle: input (data entered), process (CPU calculations), and output (results displayed). This cycle is repeated for every task.
-
-Basic computer components include the CPU, monitor, mouse, and keyboard. Additional components, like printers, scanners, and laser pens, can be connected. 
+Please provide me with the text you would like me to summarize. I need the text to be able to summarize it for you! 😊 
 
 
-Computers come in many forms, from powerful supercomputers to everyday devices like desktops and laptops. Even mobile phones qualify as computers because they perform the fundamental functions of a computer. 
+**Status:** In progress
+
+**Summary:** An issue was identified where new users were unable to log in due to a mismatched OAuth redirect URI. 
+The redirect URI was updated, but a new issue was found with the state parameter causing a '400: Invalid Request' error for some users. 
+The state handling mechanism is being updated to resolve the issue. 
