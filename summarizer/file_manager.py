@@ -1,47 +1,24 @@
 import os
-from .pdf_handler import summarize_pdf
-from .docx_handler import summarize_docx
-from .text_handler import summarize_txt
+import logging
+from summarizer.text_handler import summarize_txt
+from summarizer.pdf_handler import summarize_pdf
+from summarizer.word_handler import summarize_word
 
-# Define input and output directories
-INPUT_DIR = 'input'
-OUTPUT_DIR = 'output'
+def summarize_file(input_file_path, output_folder):
+    extension = os.path.splitext(input_file_path)[1].lower()
+    base_filename = os.path.splitext(os.path.basename(input_file_path))[0]  # Get the base file name without extension
+    output_file_path = os.path.join(output_folder, f"{base_filename}_summary{extension}")
 
-# Ensure directories exist
-os.makedirs(INPUT_DIR, exist_ok=True)
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+    logging.info(f"Processing file: {input_file_path}")
 
-def choose_document_format():
-    print("Choose input file format:")
-    print("1. PDF")
-    print("2. DOCX")
-    print("3. Plain Text (TXT)")
-    input_choice = input("Enter the number corresponding to your choice: ")
-
-    print("\nChoose output file format:")
-    print("1. PDF")
-    print("2. DOCX")
-    print("3. Plain Text (TXT)")
-    output_choice = input("Enter the number corresponding to your choice: ")
-
-    file_type_map = {
-        "1": "pdf",
-        "2": "docx",
-        "3": "txt"
-    }
-
-    input_format = file_type_map.get(input_choice, "txt")
-    output_format = file_type_map.get(output_choice, "txt")
-
-    return input_format, output_format
-
-def summarize_files(input_format, output_format):
-    input_file_path = os.path.join(INPUT_DIR, f"input.{input_format}")
-    output_file_path = os.path.join(OUTPUT_DIR, f"summary.{output_format}")
-
-    if input_format == "pdf":
-        summarize_pdf(input_file_path, output_file_path)
-    elif input_format == "docx":
-        summarize_docx(input_file_path, output_file_path)
-    else:
+    if extension == '.txt':
         summarize_txt(input_file_path, output_file_path)
+    elif extension == '.pdf':
+        summarize_pdf(input_file_path, output_file_path)
+    elif extension == '.docx':
+        summarize_word(input_file_path, output_file_path)
+    else:
+        raise ValueError(f"Unsupported file format: {extension}")
+
+    logging.info(f"Output written to: {output_file_path}")
+    return output_file_path

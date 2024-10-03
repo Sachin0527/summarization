@@ -1,8 +1,0 @@
-Please provide me with the text you would like me to summarize. I need the text to be able to summarize it for you! 😊 
-
-
-**Status:** In progress
-
-**Summary:** An issue was identified where new users were unable to log in due to a mismatched OAuth redirect URI. 
-The redirect URI was updated, but a new issue was found with the state parameter causing a '400: Invalid Request' error for some users. 
-The state handling mechanism is being updated to resolve the issue. 
