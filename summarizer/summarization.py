@@ -11,6 +11,6 @@ model = genai.GenerativeModel(
 )
 
 def summarize_large_text(text):
-    chat_session = model.start_chat(history=[])
+    chat_session = model.start_chat()
     response = chat_session.send_message(f"Summarize this: {text}")
     return response.text

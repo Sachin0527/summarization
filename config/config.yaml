@@ -6,3 +6,4 @@ generation_config:
   top_k: 64
   max_output_tokens: 1024
   response_mime_type: "text/plain"
+log_file: "summarization.log"  

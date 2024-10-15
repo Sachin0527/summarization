@@ -1,0 +1,25 @@
+2024-10-15 15:29:16,150 - summarizer_logger - INFO - Starting to summarize file: f:\Python\summarization\config\config.py
+2024-10-15 15:29:16,150 - summarizer_logger - ERROR - Unsupported file format: .py
+2024-10-15 15:29:16,150 - summarizer_logger - ERROR - Error summarizing file: f:\Python\summarization\config\config.py, Error: Unsupported file format: .py
+2024-10-15 15:29:16,150 - summarizer_logger - ERROR - Error in main function: Unsupported file format: .py
+2024-10-15 15:30:01,625 - summarizer_logger - INFO - Starting to summarize file: f:\Python\summarization\input\sachin.docx
+2024-10-15 15:30:01,625 - summarizer_logger - INFO - Reading DOCX file: f:\Python\summarization\input\sachin.docx
+2024-10-15 15:30:01,666 - summarizer_logger - INFO - Word document text extracted successfully from f:\Python\summarization\input\sachin.docx. Starting summarization.
+2024-10-15 15:30:04,535 - summarizer_logger - INFO - Summary written successfully to output\sachin_summary.docx
+2024-10-15 15:30:04,535 - summarizer_logger - INFO - Summary written to: output\sachin_summary.docx
+2024-10-15 15:30:04,535 - summarizer_logger - INFO - Summary process completed for file: f:\Python\summarization\input\sachin.docx
+2024-10-15 15:30:34,745 - summarizer_logger - INFO - Starting to summarize file: f:\Python\summarization\input\input.txt
+2024-10-15 15:30:34,745 - summarizer_logger - INFO - Reading TXT file: f:\Python\summarization\input\input.txt
+2024-10-15 15:30:37,195 - summarizer_logger - INFO - Summary successfully written to: output\input_summary.txt
+2024-10-15 15:30:37,195 - summarizer_logger - INFO - Summary written to: output\input_summary.txt
+2024-10-15 15:30:37,195 - summarizer_logger - INFO - Summary process completed for file: f:\Python\summarization\input\input.txt
+2024-10-15 15:31:08,869 - summarizer_logger - INFO - Starting to summarize file: & F:/Python/summarization/.venv/Scripts/python.exe f:/Python/summarization/main.py
+2024-10-15 15:31:08,869 - summarizer_logger - ERROR - Unsupported file format: .py
+2024-10-15 15:31:08,869 - summarizer_logger - ERROR - Error summarizing file: & F:/Python/summarization/.venv/Scripts/python.exe f:/Python/summarization/main.py, Error: Unsupported file format: .py
+2024-10-15 15:31:08,869 - summarizer_logger - ERROR - Error in main function: Unsupported file format: .py
+2024-10-15 15:31:34,255 - summarizer_logger - INFO - Starting to summarize file: f:\Python\summarization\input\input.docx
+2024-10-15 15:31:34,255 - summarizer_logger - INFO - Reading DOCX file: f:\Python\summarization\input\input.docx
+2024-10-15 15:31:34,255 - summarizer_logger - INFO - Word document text extracted successfully from f:\Python\summarization\input\input.docx. Starting summarization.
+2024-10-15 15:31:37,164 - summarizer_logger - INFO - Summary written successfully to output\input_summary.docx
+2024-10-15 15:31:37,164 - summarizer_logger - INFO - Summary written to: output\input_summary.docx
+2024-10-15 15:31:37,164 - summarizer_logger - INFO - Summary process completed for file: f:\Python\summarization\input\input.docx
