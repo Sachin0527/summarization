@@ -1,0 +1,16 @@
+api:
+  api_key: "API_KEY"
+  model_name: "gemini-1.5-flash"
+  generation_config:
+    temperature: 1
+    top_p: 0.95
+    top_k: 64
+    max_output_tokens: 1024
+    response_mime_type: "text/plain"
+
+logging:
+  logging_file: 'logs/summarization.log'
+  logging_level: 'DEBUG'
+  logging_format: '%(asctime)s :: %(levelname)s :: %(message)s'
+
+output_directory: 'output'
