@@ -16,6 +16,6 @@ class TextHandler(BaseHandler):
             self.logger.debug(f"Summary written successfully to {output_file}")
             return f"Summary written successfully to {output_file}"
         except Exception as e:
-            msg = f"Error summarizing TXT file: {input_file}, Error: {str(e)}"
+            msg = f"Error in Text Handler: \n {str(e)}"
             self.logger.error(msg)
             raise Exception(msg)

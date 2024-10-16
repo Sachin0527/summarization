@@ -1,3 +1,4 @@
+import os
 import logging
 
 
@@ -13,12 +14,17 @@ class CustomLogger:
 
     # Initialize the logger with logging file, level, format etc
     def _initialize_logger(self, config):
+        try:
             self.config = config
-            print(self.config)
-            self.log_file = self.config.get('logging_file','default.log')
-            self.log_level = getattr(logging, self.config.get('logging_level','DEBUG')
-                                    .upper())
-            self.formatter = self.config.get('logging_format','%(asctime)s :: %(levelname)s :: %(message)s')
+            self.log_file = self.config.get('logging_file', 'default.log')
+            # Extract the folder path from self.log_file
+            folder_path = os.path.dirname(self.log_file)
+            # Check if the folder exists, if not, create it
+            if not os.path.exists(folder_path):
+                os.makedirs(folder_path)
+            self.log_level = getattr(logging, self.config.get('logging_level', 'DEBUG')
+                                     .upper())
+            self.formatter = self.config.get('logging_format', '%(asctime)s :: %(levelname)s :: %(message)s')
             self.logger = logging.getLogger()
             self.logger.setLevel(self.log_level)
             if not self.logger.hasHandlers():
@@ -32,6 +38,9 @@ class CustomLogger:
 
                 # Add handlers to the logger
                 self.logger.addHandler(file_handler)
+        except Exception as e:
+            msg = f"Error in logger initialization : \n {str(e)}"
+            raise Exception(msg)
 
     # returns the initialized logger
     def get_logger(self):

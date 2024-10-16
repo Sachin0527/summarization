@@ -10,6 +10,9 @@ class APIClient:
         )
 
     def api_call(self, text):
-        chat_session = self.model.start_chat()
-        response = chat_session.send_message(f"Summarize this: {text}")
-        return response.text
+        try:
+            chat_session = self.model.start_chat()
+            response = chat_session.send_message(f"Summarize this: {text}")
+            return response.text
+        except Exception as e:
+            raise Exception(str(e))

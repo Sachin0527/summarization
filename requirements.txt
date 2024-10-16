@@ -1,11 +1,13 @@
 # Google Generative AI API
-google-generativeai==0.2.0
+google-generativeai~=0.8.3
 
 # For handling PDF files
-PyPDF2==3.0.1
+pypdf2~=3.0.1
+reportlab~=4.2.5
 
 # For handling DOCX files
-python-docx==0.8.11
+python-docx~=0.8.11
 
-# General purpose libraries
-PyYAML==6.0  # For reading config.yaml
+# For reading config.yaml
+PyYAML~=6.0.2
+

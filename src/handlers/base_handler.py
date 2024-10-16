@@ -18,6 +18,6 @@ class BaseHandler:
             self.logger.debug(f"API call ended")
             return summary
         except Exception as e:
-            msg = f"Error in API call: {str(e)}"
+            msg = f"Error in API call: \n {str(e)}"
             self.logger.error(msg)
             raise Exception(msg)
