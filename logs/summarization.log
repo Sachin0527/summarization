@@ -1,261 +1,31 @@
-2024-10-15 23:02:37,570 :: DEBUG :: Summarization process started
-2024-10-15 23:02:37,570 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.docx
-2024-10-15 23:02:37,570 :: DEBUG :: setting up handler for the file extension : .docx
-2024-10-15 23:02:37,570 :: DEBUG :: Successfully setup handler for the file extension : .docx
-2024-10-15 23:02:37,570 :: DEBUG :: Reading Word file: f:\Python\summarization\input\input.docx
-2024-10-15 23:02:37,601 :: DEBUG :: API call started
-2024-10-15 23:02:40,578 :: DEBUG :: API call ended
-2024-10-15 23:02:40,578 :: DEBUG :: Writing summary in Word file: output\input_summary.docx
-2024-10-15 23:02:40,608 :: DEBUG :: Summary written successfully to output\input_summary.docx
-2024-10-15 23:02:40,608 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.docx : Summary written successfully to output\input_summary.docx
-2024-10-16 09:39:22,697 :: DEBUG :: Summarization process started
-2024-10-16 09:39:22,697 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.pdf
-2024-10-16 09:39:22,697 :: DEBUG :: setting up handler for the file extension : .pdf
-2024-10-16 09:39:22,697 :: DEBUG :: Successfully setup handler for the file extension : .pdf
-2024-10-16 09:39:22,697 :: DEBUG :: Reading PDF file: f:\Python\summarization\input\input.pdf
-2024-10-16 09:39:22,753 :: DEBUG :: PDF text extracted successfully from f:\Python\summarization\input\input.pdf. Starting summarization.
-2024-10-16 09:39:22,753 :: DEBUG :: API call started
-2024-10-16 09:39:25,898 :: DEBUG :: API call ended
-2024-10-16 09:39:25,898 :: DEBUG :: Writing summary in PDF file: output\input_summary.pdf
-2024-10-16 09:39:25,898 :: DEBUG :: Summary written successfully to output\input_summary.pdf
-2024-10-16 09:39:25,898 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.pdf : Summary written successfully to output\input_summary.pdf
-2024-10-16 09:39:40,417 :: DEBUG :: Summarization process started
-2024-10-16 09:39:40,417 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.txt
-2024-10-16 09:39:40,417 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 09:39:40,417 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 09:39:40,417 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\input.txt
-2024-10-16 09:39:40,711 :: DEBUG :: API call started
-2024-10-16 09:39:44,525 :: DEBUG :: API call ended
-2024-10-16 09:39:44,525 :: DEBUG :: Writing summary in TXT file: output\input_summary.txt
-2024-10-16 09:39:44,525 :: DEBUG :: Summary written successfully to output\input_summary.txt
-2024-10-16 09:39:44,525 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.txt : Summary written successfully to output\input_summary.txt
-2024-10-16 14:16:20,497 :: DEBUG :: Summarization process started
-2024-10-16 14:16:20,497 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.pdf
-2024-10-16 14:16:20,497 :: DEBUG :: setting up handler for the file extension : .pdf
-2024-10-16 14:16:20,497 :: DEBUG :: Successfully setup handler for the file extension : .pdf
-2024-10-16 14:16:20,497 :: DEBUG :: Reading PDF file: f:\Python\summarization\input\input.pdf
-2024-10-16 14:16:20,531 :: DEBUG :: PDF text extracted successfully from f:\Python\summarization\input\input.pdf. Starting summarization.
-2024-10-16 14:16:20,531 :: DEBUG :: API call started
-2024-10-16 14:16:23,359 :: DEBUG :: API call ended
-2024-10-16 14:16:23,359 :: DEBUG :: Writing summary in PDF file: output\input_summary.pdf
-2024-10-16 14:16:23,359 :: DEBUG :: Summary written successfully to output\input_summary.pdf
-2024-10-16 14:16:23,359 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.pdf : Summary written successfully to output\input_summary.pdf
-2024-10-16 14:45:03,798 :: DEBUG :: Summarization process started
-2024-10-16 14:45:03,798 :: INFO :: Starting to summarize file: & F:/Python/summarization/.venv/Scripts/python.exe f:/Python/summarization/main.py
-2024-10-16 14:45:03,798 :: DEBUG :: setting up handler for the file extension : .py
-2024-10-16 14:45:03,798 :: ERROR :: Unsupported file format: .py
-2024-10-16 14:45:03,798 :: ERROR :: Error in setting file format handler : 
- Unsupported file format: .py
-2024-10-16 14:45:03,798 :: ERROR :: Error in summarization process for file: '& F:/Python/summarization/.venv/Scripts/python.exe f:/Python/summarization/main.py' 
- Error in setting file format handler : 
- Unsupported file format: .py
-2024-10-16 14:45:20,036 :: DEBUG :: Summarization process started
-2024-10-16 14:45:20,036 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.pdf
-2024-10-16 14:45:20,036 :: DEBUG :: setting up handler for the file extension : .pdf
-2024-10-16 14:45:20,036 :: DEBUG :: Successfully setup handler for the file extension : .pdf
-2024-10-16 14:45:20,036 :: DEBUG :: Reading PDF file: f:\Python\summarization\input\input.pdf
-2024-10-16 14:45:20,064 :: DEBUG :: PDF text extracted successfully from f:\Python\summarization\input\input.pdf. Starting summarization.
-2024-10-16 14:45:20,064 :: DEBUG :: API call started
-2024-10-16 14:45:23,136 :: DEBUG :: API call ended
-2024-10-16 14:45:23,136 :: DEBUG :: Writing summary in PDF file: output\input_summary.pdf
-2024-10-16 14:45:23,136 :: DEBUG :: Summary written successfully to output\input_summary.pdf
-2024-10-16 14:45:23,136 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.pdf : Summary written successfully to output\input_summary.pdf
-2024-10-16 14:49:20,649 :: DEBUG :: Summarization process started
-2024-10-16 14:49:20,650 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.txt
-2024-10-16 14:49:20,650 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 14:49:20,650 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 14:49:20,650 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\input.txt
-2024-10-16 14:49:20,650 :: DEBUG :: API call started
-2024-10-16 14:49:22,491 :: DEBUG :: API call ended
-2024-10-16 14:49:22,491 :: DEBUG :: Writing summary in TXT file: output\input_summary.txt
-2024-10-16 14:49:22,790 :: DEBUG :: Summary written successfully to output\input_summary.txt
-2024-10-16 14:49:22,790 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.txt : Summary written successfully to output\input_summary.txt
-2024-10-16 14:51:24,158 :: DEBUG :: Summarization process started
-2024-10-16 14:51:24,158 :: INFO :: Starting to summarize file: & 'f:\Python\summarization\input\input (1).pdf'
-2024-10-16 14:51:24,158 :: DEBUG :: setting up handler for the file extension : .pdf'
-2024-10-16 14:51:24,158 :: ERROR :: Unsupported file format: .pdf'
-2024-10-16 14:51:24,158 :: ERROR :: Error in setting file format handler : 
- Unsupported file format: .pdf'
-2024-10-16 14:51:24,158 :: ERROR :: Error in summarization process for file: '& 'f:\Python\summarization\input\input (1).pdf'' 
- Error in setting file format handler : 
- Unsupported file format: .pdf'
-2024-10-16 14:51:42,439 :: DEBUG :: Summarization process started
-2024-10-16 14:51:42,439 :: INFO :: Starting to summarize file: & 'f:\Python\summarization\input\input (1).pdf'
-2024-10-16 14:51:42,439 :: DEBUG :: setting up handler for the file extension : .pdf'
-2024-10-16 14:51:42,439 :: ERROR :: Unsupported file format: .pdf'
-2024-10-16 14:51:42,439 :: ERROR :: Error in setting file format handler : 
- Unsupported file format: .pdf'
-2024-10-16 14:51:42,439 :: ERROR :: Error in summarization process for file: '& 'f:\Python\summarization\input\input (1).pdf'' 
- Error in setting file format handler : 
- Unsupported file format: .pdf'
-2024-10-16 14:52:34,098 :: DEBUG :: Summarization process started
-2024-10-16 14:52:34,098 :: INFO :: Starting to summarize file: f:\Python\summarization\input\newpdf.pdf
-2024-10-16 14:52:34,098 :: DEBUG :: setting up handler for the file extension : .pdf
-2024-10-16 14:52:34,098 :: DEBUG :: Successfully setup handler for the file extension : .pdf
-2024-10-16 14:52:34,099 :: DEBUG :: Reading PDF file: f:\Python\summarization\input\newpdf.pdf
-2024-10-16 14:52:34,104 :: DEBUG :: PDF text extracted successfully from f:\Python\summarization\input\newpdf.pdf. Starting summarization.
-2024-10-16 14:52:34,104 :: DEBUG :: API call started
-2024-10-16 14:52:37,562 :: DEBUG :: API call ended
-2024-10-16 14:52:37,562 :: DEBUG :: Writing summary in PDF file: output\newpdf_summary.pdf
-2024-10-16 14:52:37,562 :: DEBUG :: Summary written successfully to output\newpdf_summary.pdf
-2024-10-16 14:52:37,562 :: INFO :: Summarization process result for file: f:\Python\summarization\input\newpdf.pdf : Summary written successfully to output\newpdf_summary.pdf
-2024-10-16 14:54:31,594 :: DEBUG :: Summarization process started
-2024-10-16 14:54:31,594 :: INFO :: Starting to summarize file: f:\Python\summarization\input\cruz-wishart-2006-applications-of-machine-learning-in-cancer-prediction-and-prognosis.pdf
-2024-10-16 14:54:31,594 :: DEBUG :: setting up handler for the file extension : .pdf
-2024-10-16 14:54:31,594 :: DEBUG :: Successfully setup handler for the file extension : .pdf
-2024-10-16 14:54:31,594 :: DEBUG :: Reading PDF file: f:\Python\summarization\input\cruz-wishart-2006-applications-of-machine-learning-in-cancer-prediction-and-prognosis.pdf
-2024-10-16 14:54:31,725 :: DEBUG :: PDF text extracted successfully from f:\Python\summarization\input\cruz-wishart-2006-applications-of-machine-learning-in-cancer-prediction-and-prognosis.pdf. Starting summarization.
-2024-10-16 14:54:31,725 :: DEBUG :: API call started
-2024-10-16 14:54:37,261 :: DEBUG :: API call ended
-2024-10-16 14:54:37,261 :: DEBUG :: Writing summary in PDF file: output\cruz-wishart-2006-applications-of-machine-learning-in-cancer-prediction-and-prognosis_summary.pdf
-2024-10-16 14:54:37,292 :: DEBUG :: Summary written successfully to output\cruz-wishart-2006-applications-of-machine-learning-in-cancer-prediction-and-prognosis_summary.pdf
-2024-10-16 14:54:37,292 :: INFO :: Summarization process result for file: f:\Python\summarization\input\cruz-wishart-2006-applications-of-machine-learning-in-cancer-prediction-and-prognosis.pdf : Summary written successfully to output\cruz-wishart-2006-applications-of-machine-learning-in-cancer-prediction-and-prognosis_summary.pdf
-2024-10-16 16:01:31,797 :: DEBUG :: Summarization process started
-2024-10-16 16:01:31,797 :: INFO :: Starting to summarize file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:01:31,797 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:01:31,797 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:01:31,798 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:01:31,798 :: DEBUG :: API call started
-2024-10-16 16:01:33,736 :: DEBUG :: API call ended
-2024-10-16 16:01:33,736 :: DEBUG :: Writing summary in TXT file: output\machine_summary.txt
-2024-10-16 16:01:33,736 :: DEBUG :: Summary written successfully to output\machine_summary.txt
-2024-10-16 16:01:33,736 :: INFO :: Summarization process result for file: f:\Python\summarization\input\machine.txt : Summary written successfully to output\machine_summary.txt
-2024-10-16 16:02:20,218 :: DEBUG :: Summarization process started
-2024-10-16 16:02:20,218 :: INFO :: Starting to summarize file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:02:20,218 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:02:20,218 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:02:20,218 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:02:20,224 :: ERROR :: Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 567: character maps to <undefined>
-2024-10-16 16:02:20,225 :: ERROR :: Error in summarization process for file: 'f:\Python\summarization\input\machine.txt' 
- Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 567: character maps to <undefined>
-2024-10-16 16:02:43,016 :: DEBUG :: Summarization process started
-2024-10-16 16:02:43,016 :: INFO :: Starting to summarize file: & F:/Python/summarization/.venv/Scripts/python.exe f:/Python/summarization/main.py
-2024-10-16 16:02:43,016 :: DEBUG :: setting up handler for the file extension : .py
-2024-10-16 16:02:43,016 :: ERROR :: Unsupported file format: .py
-2024-10-16 16:02:43,016 :: ERROR :: Error in setting file format handler : 
- Unsupported file format: .py
-2024-10-16 16:02:43,016 :: ERROR :: Error in summarization process for file: '& F:/Python/summarization/.venv/Scripts/python.exe f:/Python/summarization/main.py' 
- Error in setting file format handler : 
- Unsupported file format: .py
-2024-10-16 16:02:53,948 :: DEBUG :: Summarization process started
-2024-10-16 16:02:53,948 :: INFO :: Starting to summarize file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:02:53,948 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:02:53,948 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:02:53,948 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:02:53,948 :: ERROR :: Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 567: character maps to <undefined>
-2024-10-16 16:02:53,948 :: ERROR :: Error in summarization process for file: 'f:\Python\summarization\input\machine.txt' 
- Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 567: character maps to <undefined>
-2024-10-16 16:03:56,443 :: DEBUG :: Summarization process started
-2024-10-16 16:03:56,448 :: INFO :: Starting to summarize file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:03:56,448 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:03:56,448 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:03:56,448 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:03:56,456 :: ERROR :: Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 388: character maps to <undefined>
-2024-10-16 16:03:56,456 :: ERROR :: Error in summarization process for file: 'f:\Python\summarization\input\machine.txt' 
- Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 388: character maps to <undefined>
-2024-10-16 16:04:48,289 :: DEBUG :: Summarization process started
-2024-10-16 16:04:48,289 :: INFO :: Starting to summarize file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:04:48,289 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:04:48,290 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:04:48,290 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:04:48,290 :: ERROR :: Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 388: character maps to <undefined>
-2024-10-16 16:04:48,290 :: ERROR :: Error in summarization process for file: 'f:\Python\summarization\input\machine.txt' 
- Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 388: character maps to <undefined>
-2024-10-16 16:05:22,239 :: DEBUG :: Summarization process started
-2024-10-16 16:05:22,239 :: INFO :: Starting to summarize file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:05:22,239 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:05:22,239 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:05:22,239 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:05:22,239 :: ERROR :: Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 388: character maps to <undefined>
-2024-10-16 16:05:22,239 :: ERROR :: Error in summarization process for file: 'f:\Python\summarization\input\machine.txt' 
- Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 388: character maps to <undefined>
-2024-10-16 16:07:54,665 :: DEBUG :: Summarization process started
-2024-10-16 16:07:54,665 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.txt
-2024-10-16 16:07:54,665 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:07:54,665 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:07:54,665 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\input.txt
-2024-10-16 16:07:54,665 :: DEBUG :: API call started
-2024-10-16 16:07:58,455 :: DEBUG :: API call ended
-2024-10-16 16:07:58,455 :: DEBUG :: Writing summary in TXT file: output\input_summary.txt
-2024-10-16 16:07:58,455 :: DEBUG :: Summary written successfully to output\input_summary.txt
-2024-10-16 16:07:58,455 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.txt : Summary written successfully to output\input_summary.txt
-2024-10-16 16:08:15,045 :: DEBUG :: Summarization process started
-2024-10-16 16:08:15,045 :: INFO :: Starting to summarize file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:08:15,045 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:08:15,045 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:08:15,045 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:08:15,045 :: ERROR :: Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 363: character maps to <undefined>
-2024-10-16 16:08:15,045 :: ERROR :: Error in summarization process for file: 'f:\Python\summarization\input\machine.txt' 
- Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 363: character maps to <undefined>
-2024-10-16 16:09:50,298 :: DEBUG :: Summarization process started
-2024-10-16 16:09:50,298 :: INFO :: Starting to summarize file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:09:50,298 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:09:50,298 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:09:50,298 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\machine.txt
-2024-10-16 16:09:50,298 :: ERROR :: Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 1912: character maps to <undefined>
-2024-10-16 16:09:50,298 :: ERROR :: Error in summarization process for file: 'f:\Python\summarization\input\machine.txt' 
- Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 1912: character maps to <undefined>
-2024-10-16 16:10:59,518 :: DEBUG :: Summarization process started
-2024-10-16 16:10:59,518 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.txt
-2024-10-16 16:10:59,518 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:10:59,518 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:10:59,518 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\input.txt
-2024-10-16 16:10:59,519 :: ERROR :: Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 38: character maps to <undefined>
-2024-10-16 16:10:59,519 :: ERROR :: Error in summarization process for file: 'f:\Python\summarization\input\input.txt' 
- Error in Text Handler: 
- 'charmap' codec can't decode byte 0x9d in position 38: character maps to <undefined>
-2024-10-16 16:12:40,340 :: DEBUG :: Summarization process started
-2024-10-16 16:12:40,340 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.txt
-2024-10-16 16:12:40,340 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:12:40,340 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:12:40,340 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\input.txt
-2024-10-16 16:12:40,341 :: DEBUG :: API call started
-2024-10-16 16:12:42,859 :: DEBUG :: API call ended
-2024-10-16 16:12:42,859 :: DEBUG :: Writing summary in TXT file: output\input_summary.txt
-2024-10-16 16:12:42,859 :: DEBUG :: Summary written successfully to output\input_summary.txt
-2024-10-16 16:12:42,859 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.txt : Summary written successfully to output\input_summary.txt
-2024-10-16 16:43:57,315 :: DEBUG :: Summarization process started
-2024-10-16 16:43:57,323 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.txt
-2024-10-16 16:43:57,338 :: DEBUG :: setting up handler for the file extension : .txt
-2024-10-16 16:43:57,338 :: DEBUG :: Successfully setup handler for the file extension : .txt
-2024-10-16 16:43:57,338 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\input.txt
-2024-10-16 16:43:57,338 :: DEBUG :: API call started
-2024-10-16 16:44:01,185 :: DEBUG :: API call ended
-2024-10-16 16:44:01,185 :: DEBUG :: Writing summary in TXT file: output\input_summary.txt
-2024-10-16 16:44:01,185 :: DEBUG :: Summary written successfully to output\input_summary.txt
-2024-10-16 16:44:01,185 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.txt : Summary written successfully to output\input_summary.txt
-2024-10-16 18:06:33,470 :: DEBUG :: Summarization process started
-2024-10-16 18:06:33,470 :: INFO :: Starting to summarize file: f:\Python\summarization\input\Abstract.docx
-2024-10-16 18:06:33,470 :: DEBUG :: setting up handler for the file extension : .docx
-2024-10-16 18:06:33,470 :: DEBUG :: Successfully setup handler for the file extension : .docx
-2024-10-16 18:06:33,470 :: DEBUG :: Reading Word file: f:\Python\summarization\input\Abstract.docx
-2024-10-16 18:06:33,568 :: DEBUG :: API call started
-2024-10-16 18:06:38,440 :: DEBUG :: API call ended
-2024-10-16 18:06:38,440 :: DEBUG :: Writing summary in Word file: output\Abstract_summary.docx
-2024-10-16 18:06:38,503 :: DEBUG :: Summary written successfully to output\Abstract_summary.docx
-2024-10-16 18:06:38,503 :: INFO :: Summarization process result for file: f:\Python\summarization\input\Abstract.docx : Summary written successfully to output\Abstract_summary.docx
-2024-10-16 18:07:13,910 :: DEBUG :: Summarization process started
-2024-10-16 18:07:13,910 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.docx
-2024-10-16 18:07:13,910 :: DEBUG :: setting up handler for the file extension : .docx
-2024-10-16 18:07:13,910 :: DEBUG :: Successfully setup handler for the file extension : .docx
-2024-10-16 18:07:13,910 :: DEBUG :: Reading Word file: f:\Python\summarization\input\input.docx
-2024-10-16 18:07:13,925 :: DEBUG :: API call started
-2024-10-16 18:07:16,625 :: DEBUG :: API call ended
-2024-10-16 18:07:16,625 :: DEBUG :: Writing summary in Word file: output\input_summary.docx
-2024-10-16 18:07:16,643 :: DEBUG :: Summary written successfully to output\input_summary.docx
-2024-10-16 18:07:16,643 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.docx : Summary written successfully to output\input_summary.docx
+2024-10-16 18:35:13,507 :: DEBUG :: Summarization process started
+2024-10-16 18:35:13,507 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.docx
+2024-10-16 18:35:13,507 :: DEBUG :: setting up handler for the file extension : .docx
+2024-10-16 18:35:13,507 :: DEBUG :: Successfully setup handler for the file extension : .docx
+2024-10-16 18:35:13,508 :: DEBUG :: Reading Word file: f:\Python\summarization\input\input.docx
+2024-10-16 18:35:13,513 :: DEBUG :: API call started
+2024-10-16 18:35:16,354 :: DEBUG :: API call ended
+2024-10-16 18:35:16,354 :: DEBUG :: Writing summary in Word file: output\input_summary.docx
+2024-10-16 18:35:16,374 :: DEBUG :: Summary written successfully to output\input_summary.docx
+2024-10-16 18:35:16,374 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.docx : Summary written successfully to output\input_summary.docx
+2024-10-16 18:35:21,825 :: DEBUG :: Summarization process started
+2024-10-16 18:35:21,825 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.pdf
+2024-10-16 18:35:21,825 :: DEBUG :: setting up handler for the file extension : .pdf
+2024-10-16 18:35:21,825 :: DEBUG :: Successfully setup handler for the file extension : .pdf
+2024-10-16 18:35:21,825 :: DEBUG :: Reading PDF file: f:\Python\summarization\input\input.pdf
+2024-10-16 18:35:21,841 :: DEBUG :: PDF text extracted successfully from f:\Python\summarization\input\input.pdf. Starting summarization.
+2024-10-16 18:35:21,841 :: DEBUG :: API call started
+2024-10-16 18:35:25,312 :: DEBUG :: API call ended
+2024-10-16 18:35:25,312 :: DEBUG :: Writing summary in PDF file: output\input_summary.pdf
+2024-10-16 18:35:25,318 :: DEBUG :: Summary written successfully to output\input_summary.pdf
+2024-10-16 18:35:25,318 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.pdf : Summary written successfully to output\input_summary.pdf
+2024-10-16 18:35:31,213 :: DEBUG :: Summarization process started
+2024-10-16 18:35:31,213 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.txt
+2024-10-16 18:35:31,213 :: DEBUG :: setting up handler for the file extension : .txt
+2024-10-16 18:35:31,213 :: DEBUG :: Successfully setup handler for the file extension : .txt
+2024-10-16 18:35:31,213 :: DEBUG :: Reading TXT file: f:\Python\summarization\input\input.txt
+2024-10-16 18:35:31,213 :: DEBUG :: API call started
+2024-10-16 18:35:34,963 :: DEBUG :: API call ended
+2024-10-16 18:35:34,963 :: DEBUG :: Writing summary in TXT file: output\input_summary.txt
+2024-10-16 18:35:34,963 :: DEBUG :: Summary written successfully to output\input_summary.txt
+2024-10-16 18:35:34,963 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.txt : Summary written successfully to output\input_summary.txt

@@ -1,28 +1,11 @@
-## Global Warming: Causes and Solutions
+## Global Warming: A Summary
 
-Global warming is a serious problem with both natural and human-caused origins. 
+**What is it?** Global warming is the ongoing increase in Earth's average temperature, primarily caused by human activities. Since the Industrial Revolution, the planet has warmed by over 1 degree Celsius, with the rate of warming more than doubling in recent decades.  This has led to record-breaking temperatures, with nine of the ten warmest years on record occurring since 2005.
 
-**Natural Causes:**
+**What causes it?**  The primary cause of global warming is the greenhouse effect, where heat-trapping gases like carbon dioxide, methane, and nitrous oxide accumulate in the atmosphere, preventing heat from escaping into space.  Human activities, particularly the burning of fossil fuels for energy, are the main contributors to these emissions.
 
-* **Greenhouse Gas Release:** Natural processes release greenhouse gases that trap heat in the atmosphere, contributing to warming.
-* **Volcanic Eruptions:** Volcanic eruptions release large amounts of carbon dioxide, further increasing the greenhouse effect.
-* **Methane Emissions:** Methane, a potent greenhouse gas, is naturally released from various sources.
+**What are the effects?** Global warming is fueling more extreme weather events, including longer and hotter heatwaves, heavier rainfall, more intense droughts, and stronger hurricanes.  Rising sea levels are also causing coastal flooding, while melting glaciers and snowpack threaten water resources.  These effects are already causing widespread damage and death, especially impacting vulnerable communities.
 
-**Human-Caused Causes:**
+**How can we address it?**  To mitigate the worst impacts of global warming, scientists urge deep cuts in greenhouse gas emissions and a transition to clean energy sources like wind and solar.  The 2015 Paris Climate Agreement saw global commitments to reducing emissions, but more ambitious action is needed.  Individuals can make a difference by reducing their own carbon footprint through energy conservation and lifestyle changes.
 
-* **Fossil Fuel Use:** Burning fossil fuels for energy releases significant amounts of carbon dioxide.
-* **Deforestation:** Trees absorb carbon dioxide, so their removal through deforestation reduces this absorption capacity.
-* **Industrial Activities:** Industrial processes and mining activities release various harmful gases into the atmosphere.
-* **Livestock Farming:** Cattle and other livestock release methane during digestion.
-
-**Solutions:**
-
-* **Reduce Greenhouse Gas Emissions:** This involves switching to renewable energy sources, improving energy efficiency, and promoting sustainable transportation.
-* **Limit Gasoline Consumption:** Promote hybrid cars, public transportation, and carpooling to reduce carbon dioxide emissions.
-* **Encourage Recycling:** Reduce waste and promote the reuse of materials.
-* **Plant More Trees:** Reforestation and afforestation help absorb carbon dioxide from the atmosphere.
-* **Government Regulations:** Implement policies to regulate industrial emissions and promote sustainable practices.
-
-**Call to Action:**
-
-The text emphasizes the need for collective action, urging individuals and governments to work together to address this critical issue. Every step, no matter how small, contributes to mitigating global warming and ensuring a healthier future for generations to come. 
+**The United States' role:** The U.S., being the second largest emitter of greenhouse gases, has a significant responsibility in addressing global warming.  While progress has been made on clean energy and efficiency, more action is needed to reduce reliance on fossil fuels.  Government policies and individual action are crucial to transitioning to a cleaner future. 
