@@ -1,0 +1,10 @@
+2024-10-15 23:02:37,570 :: DEBUG :: Summarization process started
+2024-10-15 23:02:37,570 :: INFO :: Starting to summarize file: f:\Python\summarization\input\input.docx
+2024-10-15 23:02:37,570 :: DEBUG :: setting up handler for the file extension : .docx
+2024-10-15 23:02:37,570 :: DEBUG :: Successfully setup handler for the file extension : .docx
+2024-10-15 23:02:37,570 :: DEBUG :: Reading Word file: f:\Python\summarization\input\input.docx
+2024-10-15 23:02:37,601 :: DEBUG :: API call started
+2024-10-15 23:02:40,578 :: DEBUG :: API call ended
+2024-10-15 23:02:40,578 :: DEBUG :: Writing summary in Word file: output\input_summary.docx
+2024-10-15 23:02:40,608 :: DEBUG :: Summary written successfully to output\input_summary.docx
+2024-10-15 23:02:40,608 :: INFO :: Summarization process result for file: f:\Python\summarization\input\input.docx : Summary written successfully to output\input_summary.docx

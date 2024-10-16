@@ -1,5 +1,5 @@
 api:
-  api_key: "API_KEY"
+  api_key: AIzaSyCOzWDG07JQ4N52MfFSpZOglfIODeMCzHA
   model_name: "gemini-1.5-flash"
   generation_config:
     temperature: 1

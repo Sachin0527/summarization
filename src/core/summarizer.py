@@ -6,9 +6,12 @@ from src.handlers import PDFHandler, TextHandler, WordHandler
 class Summarizer:
     def __init__(self, config_file):
         self.config = read_yaml(config_file)
+        print(self.config)
         self.logger = CustomLogger(self.config['logging']).get_logger()
+        print("aaaaa")
 
     def summarize(self, input_file):
+        print('aaa')
         self.logger.debug("Summarization process started")
         try:
             output_folder = self.config['output_directory']
